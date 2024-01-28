@@ -1,0 +1,463 @@
+/* || General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.box-width {
+    width: 1440px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+
+/* || Typoghrapy */
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+span {
+    font-size: 12px;
+}
+
+
+h1, h2, h3, h4 {
+    color: #343C6A;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px)  {
+    .main-bankdash-container {
+        max-width: 1024px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .main-bankdash-container {
+        max-width: 767px;
+        width: 100%;
+        width: 375px;
+    }
+
+
+    .aside__container {
+        display: none;
+    }
+
+    .aside__burger-manu {
+        display: flex;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__grey-button {
+        display: none;
+    }
+
+    .article__top {
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .article__cards {
+        width: 375px;
+        overflow-x: scrolls;
+    }
+
+    
+
+    
+}
+
+
+
+
+/* body */
+
+
+.main-bankdash-container {
+    align-items: center;
+}
+
+
+/* header */
+
+.header__logo {
+    padding: 32px 28px 32px 38px;
+    border-right: 1px solid #E6EFF5;
+}
+
+.header__box {
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.header__buttons {
+    gap: 30px;
+}
+
+.header__search {
+    gap: 15px;
+    padding: 15px 25px;
+    border-radius: 40px;
+    background-color: #F5F7FA;
+}
+
+.header__search input {
+    all: unset;
+}
+
+.header__buttons button {
+    all: unset;
+}
+
+.header__buttons .header__grey-button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    background-color: #F5F7FA;
+    border-radius: 50%;
+}
+
+.header__grey-button img {
+    width: 25px;
+}
+
+
+
+
+
+/* main */
+
+.main__container {
+    align-items: flex-start;
+}
+
+
+/* aside */
+
+
+.aside__container {
+    border-right: 1px solid #E6EFF5;
+    width: 249px;
+}
+
+.aside__container a {
+    all: unset;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #B1B1B1;
+}
+
+
+.aside__burger-manu {
+    display: none;
+}
+
+.aside__container a:focus {
+    color: #2D60FF;
+    border-left: 6px solid #2D60FF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.aside__container img {
+    padding-right: 26px;
+}
+
+.aside__container .aside__main-link {
+    color: #2D60FF;
+    border-left: 6px solid #2D60FF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/* article */
+
+article {
+    background-color: #F5F7FA;
+    max-width: 1190px;
+    width: 100%;
+    padding: 24px 40px 40px 40px;
+    gap: 24px;
+}
+
+.article__top {
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cards__heading {
+    max-width: 730px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cards__heading a {
+    all: unset;
+    color: #343C6A;
+}
+
+.cards__box {
+    border-radius: 25px;
+    width: 350px;
+    height: 235px;
+    gap: 35px;
+}
+
+.cards__boxes {
+    gap: 30px;
+}
+
+.article__cards {
+    gap: 20px;
+}
+
+.cards__box--blue-card {
+    padding-top: 24px;
+    border-radius: 25px;
+    background: linear-gradient(107deg, #4C49ED 2.61%, #0A06F4 101.2%);
+    color: #fff;
+}
+
+.cards-box__heading {
+    padding: 0 24px;
+    justify-content: space-between;
+}
+
+.cards-box__heading p {
+    font-size: 12px;
+}
+
+.cards-box__heading span {
+    font-size: 20px;
+}
+
+.cards-box__holder {
+    gap: 67px;
+    padding: 0 24px;
+}
+
+.cards-box__holder div {
+    gap: 2px;
+}
+
+.cards-box__holder span {
+    font-size: 12px;
+    color: #FFFFFFB2;
+}
+
+.cards-box__holder p {
+    font-size: 15px;
+}
+
+.cards-box__card--number {
+    align-items: center;
+    padding: 20px 24px;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.cards-box__card--number p {
+    font-size: 22px;
+}
+
+.cards__box--white-card {
+    padding-top: 24px;
+    background-color: #fff;
+    border-radius: 4px solid #DFEAF2;
+    color: #343C6A;
+}
+
+.cards-box__white-holder span, .cards-box__white-heading p {
+    color: #718EBF;
+}
+
+
+.article__transaction {
+    gap: 20px;
+}
+
+.transaction__info {
+    width: 350px;
+    gap: 10px;
+    padding: 24px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.transaction__text {
+    justify-content: space-between;
+}
+
+.transaction__span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.transaction__span--red {
+    color: #FF4B4A;
+}
+
+.transaction__span--blue {
+    color: #41D4A8;
+}
+
+.transaction__text > div {
+    gap: 16px;
+}
+
+.transaction__h3 {
+    gap: 8px;
+    color: #232323;
+}
+
+.transaction__h3 p {
+    color: #718EBF;
+}
+
+.article__middle {
+    gap: 30px;
+}
+
+.article__middle > div {
+    gap: 18px;
+}
+
+.article__bottom {
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.article__bottom > div {
+    gap: 20px;
+}
+
+
+
+.quick-transfer__container {
+    padding: 32px 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    gap: 29px;
+}
+
+
+.quick-transfer__persons {
+    gap: 28px;
+}
+
+
+.quick-transfer__button {
+    all: unset;
+    width: 50px;
+}
+
+.quick-transfer__amount p {
+    font-size: 16px;
+    width: 105px;
+    color: #718EBF;
+}
+
+.quick-transfer__amount input {
+    width: 180px;
+    padding: 16px 30px;
+    border-radius: 50px;
+    background: #EDF1F7;
+    position: relative;
+    left: 28px;
+    border: 0;
+}
+
+.quick-transfer__amount input::placeholder {
+    color: #718EBF;
+}
+
+.quick-transfer__amount--button {
+    all: unset;
+    align-items: flex-start;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 60px;
+    z-index: 1;
+    padding: 10px 24px;
+    background-color: #1814F3;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    background: #1814F3;
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.80);
+}
+
+.quick-transfer__person {
+    gap: 28px;
+    align-items: center;
+}
+
+.quick-transfer__person > div {
+    gap: 15px;
+    align-items: center;
+}
+
+.quick-transfer__person img {
+    width: 70px;
+}
+
+.quick-transfer__person--name {
+    gap: 5px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.quick-transfer__person--name span {
+    color: #718EBF;
+    font-size: 15px;
+}
+
+.quick-transfer__person--lavia h3 {
+    color: #232323;
+}
+
+.quick-transfer__person--lavia span {
+    color: #718EBF;
+}

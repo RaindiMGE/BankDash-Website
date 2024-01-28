@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bankdash-image/bankdash-icon.svg" />
+    <link rel="stylesheet" href="account.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Account</title>
+</head>
+<body>
+    <div class="flex-column main-container">
+        <header class="box-width">
+            <div class="flex-row justify-center">
+                <div class="box-width flex-row header__container">
+                    <img src="bankdash-image/bankdash-logo.svg" alt="bankdash logo" class="header__logo"/>
+                    <div class="flex-row header__box">
+                        <h1>Accounts</h1>
+                        <div class="flex-row header__buttons">
+                            <div class="flex-row header__search">
+                                <img src="bankdash-image/search-icon.svg" alt="search icon" />
+                                <input type="text" placeholder="Search for something" />
+                            </div>
+                            <button class="flex-row header__grey-button">
+                                <img src="bankdash-image/settings-icon.svg" alt="settings icon" />
+                            </button>
+                            <button class="flex-row header__grey-button">
+                                <img src="bankdash-image/notification-icon.svg" alt="notification icon" />
+                            </button>
+                            <button>
+                                <img src="bankdash-image/costumer-image.svg" alt="costumer image" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-row main">
+            <aside>
+                <div class="flex-column aside__container">
+                    <a href="main-bankdash.html"><img src="bankdash-image/gray-home-icon.svg" alt="home icon" />Dashboard</a>
+                    <a href="transaction.html"><img src="bankdash-image/transaction-icon.svg" alt="transaction icon"/>Transactions</a>
+                    <a href="account.html" class="aside__main-link"><img src="bankdash-image/blue-accounts-icon.svg" alt="account icon" />Accounts</a>
+                    <a href="#"><img src="bankdash-image/investment-icon.svg" alt="investment icon" />Investments</a>
+                    <a href="#"><img src="bankdash-image/credit-card-icon.svg" alt="credit card icon" />Credit Cards</a>
+                    <a href="#"><img src="bankdash-image/loan-icon.svg" alt="loan icon" />Loans</a>
+                    <a href="#"><img src="bankdash-image/services-icon.svg" alt="services icon" />Services</a>
+                    <a href="#"><img src="bankdash-image/privilegues-icon.svg" alt="privilegues-icon" />My Privileges</a>
+                    <a href=""><img src="bankdash-image/asade-settings-icon.svg" alt="settings icon" />Setting</a><a href=""></a>
+                </div>
+                <img src="bankdash-image/burger-menu.svg" alt="burger-menu" class="aside__burger-manu" />
+            </aside>
+            
+            <article class="flex-column">
+                <div class="article__top flex-row">
+                    <div class="article__money-box flex-row">
+                        <img src="bankdash-image/balance-icon.svg" alt="balance icon" />
+                        <div class="flex-column">
+                            <p>My Balance</p>
+                            <span>$12,750</span>
+                        </div>
+                    </div>
+                    <div class="article__money-box flex-row">
+                        <img src="bankdash-image/income-icon.svg" alt="income icon" />
+                        <div class="flex-column">
+                            <p>Income</p>
+                            <span>$5,600</span>
+                        </div>
+                    </div>
+                    <div class="article__money-box flex-row">
+                        <img src="bankdash-image/expensive__icon.svg" alt="expensive icon" />
+                        <div class="flex-column">
+                            <p>Expense</p>
+                            <span>$3,460</span>
+                        </div>
+                    </div>
+                    <div class="article__money-box flex-row">
+                        <img src="bankdash-image/saving-icon.svg" alt="saving icon" />
+                        <div class="flex-column">
+                            <p>Total Saving</p>
+                            <span>$7,920</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row article__middle">
+                    <div class="article__transaction-info flex-column">
+                        <h2>Last Transaction</h2>
+                        <div class="article__transaction-text flex-row">
+                            <div class="flex-column article__transaction-name">
+                                <div class="flex-row">
+                                    <div class="article__transaction-name--box flex-row">
+                                        <img src="bankdash-image/spotify-subscription-icon.svg" alt="spotify" />
+                                        <div class="flex-column">
+                                            <p>Spotify Subscription</p>
+                                            <span>25 Jan 2021</span>
+                                        </div>
+                                    </div>
+                                    <ul class="flex-row article__transaction-name--ul">
+                                        <li>Shopping</li>
+                                        <li>1234 ****</li>
+                                        <li>Pending</li>
+                                        <li class="article__transaction-name--red-li">-$150</li>
+                                    </ul>
+                                </div>
+                                <div class="flex-row">
+                                    <div class="article__transaction-name--box flex-row">
+                                        <img src="bankdash-image/mobile-service-icon.svg" alt="mobile service" />
+                                        <div class="flex-column">
+                                            <p>Mobile Service</p>
+                                            <span>25 Jan 2021</span>
+                                        </div>
+                                    </div>
+                                    <ul class="flex-row article__transaction-name--ul">
+                                        <li>Service</li>
+                                        <li>1234 ****</li>
+                                        <li>Completed</li>
+                                        <li class="article__transaction-name--red-li">-$340</li>
+                                    </ul>
+                                </div>
+                                <div class="flex-row">
+                                    <div class="article__transaction-name--box flex-row">
+                                        <img src="bankdash-image/emilli-icon.svg" alt="costumer icon" />
+                                        <div class="flex-column">
+                                            <p>Emilly Wilson</p>
+                                            <span>25 Jan 2021</span>
+                                        </div>
+                                    </div>
+                                    <uL class="flex-row article__transaction-name--ul">
+                                        <li>Transfer</li>
+                                        <li>1234 ****</li>
+                                        <li>Completed</li>
+                                        <li class="article__transaction-name--green-li">+$780</li>
+                                    </uL>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-column blue-card">
+                        <div class="flex-row cards__heading">
+                            <h2>My Cards</h2>
+                            <a href="#">See All</a>
+                        </div>
+                        <div class="flex-column cards__box cards__box--blue-card">
+                            <div class="flex-row cards-box__heading">
+                                <div class="flex-column">
+                                    <p>Balance</p>
+                                    <span>$5,756</span>
+                                </div>
+                                <img src="bankdash-image/white-cart-icon.svg" alt="white-cart-icon" />
+                            </div>
+                            <div class="flex-row cards-box__holder">
+                                <div class="flex-column">
+                                    <span>CARD HOLDER</span>
+                                    <p>Eddy Cusuma</p>
+                                </div>
+                                <div class="flex-column">
+                                    <span>VALID THRU</span>
+                                    <p>12/22</p>
+                                </div>
+                            </div>
+                            <div class="flex-row cards-box__card--number">
+                                <p>3778 **** **** 1234</p>
+                                <img src="bankdash-image/blue-card-mast-icon.svg" alt="blue-card-mast-icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row article__end">
+                    <div class="flex-column diagram-box">
+                        <h2>Debit & Credit Overview</h2>
+                        <img src="bankdash-image/diagram.svg" alt="diagram" />
+                    </div>
+                    <div class="invoices__container flex-column">
+                        <h2>Invoices Sent</h2>
+                        <div class="flex-column invoices__sent-list">
+                            <div class="flex-row invoices__box">
+                                <div class="flex-row invoices__box--text">
+                                    <img src="bankdash-image/apple-icon.svg" alt="apple icon" />
+                                    <div>
+                                        <p>Apple Store</p>
+                                        <span>5h ago</span>
+                                    </div>
+                                </div>
+                                <span>$450</span>
+                            </div>
+                            <div class="flex-row invoices__box">
+                                <div class="flex-row invoices__box--text">
+                                    <img src="bankdash-image/user-icon.svg" alt="user icon" class="user flex-row"/>
+                                    <div>
+                                        <p>Michael</p>
+                                        <span>2 days ago</span>
+                                    </div>
+                                </div>
+                                <span>$160</span>
+                            </div>
+                            <div class="flex-row invoices__box">
+                                <div class="flex-row invoices__box--text">
+                                    <img src="bankdash-image/playstation.svg" alt="user icon" class="playstation flex-row"/>
+                                    <div>
+                                        <p>Playstation</p>
+                                        <span>5 days ago</span>
+                                    </div>
+                                </div>
+                                <span>$1085</span>
+                            </div>
+                            <div class="flex-row invoices__box">
+                                <div class="flex-row invoices__box--text">
+                                    <img src="bankdash-image/purple-user.svg" alt="user icon" class="purple-user flex-row"/>
+                                    <div>
+                                        <p>William</p>
+                                        <span>10 days ago</span>
+                                    </div>
+                                </div>
+                                <span>$90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
