@@ -288,3 +288,75 @@ article {
 .article__expense--static {
     gap: 20px;
 }
+
+
+.article__card-type-container {
+    gap: 20px;
+}
+
+
+.article__card-type-boxes {
+    gap: 20px;
+}
+
+.article__card-type-box {
+    gap: 45px;
+    padding: 15px 30px 15px 15px;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.article__card-type-box p {
+    color: #232323;
+    font-weight: 500;
+}
+
+.article__card-type-box span {
+    color: #718EBF;
+    font-size: 15px;
+}
+
+.article__card-type-box--blue-card {
+    gap: 15px;
+}
+
+.article__card-type-box--blue-card img {
+    padding: 17px;
+    border-radius: 20px;
+    background-color: #E7EDFF;
+}
+
+.article__card-type-box--gap {
+    gap: 8px;
+}
+
+.article__card-type-box--a {
+    gap: 34px;
+}
+
+.article__card-type-box--a a {
+    all: unset;
+    color: #1814F3;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.article__card-type-box--red-card {
+    gap: 15px;
+}
+
+.article__card-type-box--red-card img {
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #FFE0EB;
+}
+
+.article__card-type-box--orange-card {
+    gap: 15px;
+}
+
+.article__card-type-box--orange-card img {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #FFF5D9;
+}
