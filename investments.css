@@ -208,3 +208,130 @@ article {
 .article__top {
     gap: 30px;
 }
+
+
+
+
+.article__middle {
+    gap: 30px;
+}
+
+.article__middle > div {
+    gap: 20px;
+}
+
+
+
+.article__bottom {
+    gap: 30px;
+}
+
+.article__bottom > div {
+    gap: 18px;
+}
+
+
+
+.article__my-invest-boxes {
+    gap: 15px;
+}
+
+.article__my-invest-box {
+    gap: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px 36px 15px 15px;
+}
+
+.article__my-invest-box--product-logo {
+    gap: 20px;
+}
+
+.article__my-invest-box p {
+    color: #718EBF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.article__my-invest-box span {
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.article__my-invest-box .article__my-invest-box--green-span {
+    color: #16DBAA;
+}
+
+.article__my-invest--product--info {
+    gap: 8px;
+}
+
+.article__bottom .article__my-invest-box--red-span {
+    color: #FE5C73;
+}
+
+.article__my-invest-box--product-logo {
+    max-width: 260px;
+    width: 100%;
+}
+
+
+.article__table {
+    padding: 26px 48px 26px 30px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.article__table--thead {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #F4F5F7;
+    gap: 36px;
+}
+
+.article__table--thead th {
+    color: #718EBF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.article__table--thead th:nth-of-type(2), .article__table--tbody tr td:nth-child(2) {
+    width: 95px;
+}
+
+
+.article__table--thead th:nth-of-type(3), .article__table--tbody tr td:nth-child(3) {
+    width: 68px;
+}
+
+
+.article__table--tbody tr {
+    padding: 14px 0;
+    display: flex;
+    gap: 36px;
+}
+
+.article__table--tbody tr td:nth-child(1) {
+    width: 46px;
+}
+
+.article__table--tbody td {
+    color: #232323;
+
+}
+
+.article__table--tbody tr:last-child {
+    padding-bottom: 0;
+}
+
+
+.article__table--tbody .article__tbody--red-td {
+    color: #FE5C73;
+    font-weight: 500;
+}
+
+.article__table--tbody .article__tbody--green-td {
+    color: #16DBAA;
+    font-weight: 500;
+}
