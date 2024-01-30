@@ -442,3 +442,36 @@ article {
     text-align: center;
     padding: 14px 0;
 }
+
+
+
+.card-offer__container {
+    gap: 20px;
+}
+
+.card-offer__boxes {
+    padding: 30px 48px 30px 30px;
+    border-radius: 25px;
+    background-color: #FFF;
+    max-width: 350px;
+    width: 100%;
+    gap: 23px;
+}
+
+.card-offer__box {
+    gap: 20px;
+}
+
+.card-offer__box > div {
+    gap: 8px;
+}
+
+.card-offer__box h3 {
+    color: #232323;
+    font-weight: 500;
+}
+
+.card-offer__box p {
+    color: #718EBF;
+    font-size: 15px;
+}
