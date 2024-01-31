@@ -173,3 +173,29 @@ article {
     padding: 30px 40px 50px 40px;
     gap: 24px;
 }
+
+
+.article__boxes {
+    gap: 30px;
+}
+
+.article__box {
+    gap: 15px;
+    padding: 25px 22px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.article__box > div {
+    gap: 8px;
+}
+
+.article__box p {
+    color: #718EBF;
+}
+
+.article__box span {
+    color: #232323;
+    font-size: 20px;
+    font-weight: 600;
+}
