@@ -1,0 +1,175 @@
+/* || General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Inter', sans-serif;
+}
+
+.box-width {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+
+/* || Typoghrapy */
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+span {
+    font-size: 12px;
+}
+
+
+h1, h2, h3, h4 {
+    color: #343C6A;
+}
+
+
+
+
+
+
+/* body */
+
+
+.main-container {
+    align-items: center;
+}
+
+
+/* header */
+
+.header__logo {
+    padding: 32px 28px 32px 38px;
+    border-right: 1px solid #E6EFF5;
+}
+
+.header__box {
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.header__buttons {
+    gap: 30px;
+}
+
+.header__search {
+    gap: 15px;
+    padding: 15px 25px;
+    border-radius: 40px;
+    background-color: #F5F7FA;
+}
+
+.header__search input {
+    all: unset;
+}
+
+.header__buttons button {
+    all: unset;
+}
+
+.header__buttons .header__grey-button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    background-color: #F5F7FA;
+    border-radius: 50%;
+}
+
+.header__grey-button img {
+    width: 25px;
+}
+
+
+
+
+
+/* main */
+
+.main {
+    align-items: flex-start;
+}
+
+
+/* aside */
+
+
+.aside__container {
+    border-right: 1px solid #E6EFF5;
+    width: 250px;
+}
+
+.aside__container a {
+    all: unset;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #B1B1B1;
+}
+
+
+.aside__burger-manu {
+    display: none;
+}
+
+.aside__container a:focus {
+    color: #2D60FF;
+    border-left: 6px solid #2D60FF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.aside__container img {
+    padding-right: 26px;
+}
+
+.aside__container .aside__main-link {
+    color: #2D60FF;
+    border-left: 6px solid #2D60FF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/* article */
+
+article {
+    background-color: #F5F7FA;
+    max-width: 1190px;
+    width: 100%;
+    padding: 30px 40px 50px 40px;
+    gap: 24px;
+}
