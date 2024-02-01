@@ -200,3 +200,75 @@ article {
     font-weight: 600;
 }
 
+
+
+
+.article__services-container {
+    gap: 28px;
+}
+
+.article__services-list {
+    gap: 20px;
+}
+
+.article__services-box {
+    gap: 82px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 15px;
+}
+
+.article__services-box--service-icon {
+    gap: 20px;
+}
+
+.article__services-box--column-box p {
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.article__services-box--column-box span {
+    color: #718EBF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.article__services-box--column-box {
+    gap: 8px;
+}
+
+
+.article__services-box--button {
+    all: unset;
+    color: #1814F3;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid #1814F3;
+    padding: 8px 30px;
+}
+
+.article__services-box--life-icon {
+    border-radius: 20px;
+    background-color: #DCFAF8;
+    padding: 18px;
+}
+
+.article__services-box--debit-icon {
+    border-radius: 20px;
+    background-color: #E7EDFF;
+    padding: 18px;
+}
+
+.article__services-box--checking-icon {
+    border-radius: 20px;
+    background-color: #FFF5D9;
+    padding: 18px;
+}
+
+.article__services-box--saving-icon {
+    border-radius: 20px;
+    background-color: #FFE0EB;
+    padding: 18px;
+}
