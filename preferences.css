@@ -199,44 +199,6 @@ article {
 
 
 
-.article__form-container {
-    gap: 52px;
-    align-items: flex-start;
-}
-
-form {
-    gap: 30px;
-    align-items: flex-end;
-}
-
-form > div {
-    gap: 28px;
-}
-
-.article__form-boxes {
-    gap: 22px;
-}
-
-.article__form-boxes > div {
-    gap: 12px;
-}
-
-.article__form-boxes label {
-    color: #232323;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.article__form-boxes input {
-    padding: 16px 20px;
-    width: 418px;
-    border-radius: 15px;
-    border: 1px solid #DFEAF2;
-    background: #FFF;
-    color: #718EBF;
-    font-size: 15px;
-    font-weight: 400;
-}
 
 .article__button {
     padding: 14px 74px;
