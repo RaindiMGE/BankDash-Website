@@ -225,6 +225,29 @@ form {
 }
 
 
+.article__form-container {
+    gap: 72px;
+    align-items: flex-end;
+}
+
+.article__form-container > div {
+    gap: 28px;
+}
+
+
+.accept-something-container {
+    gap: 20px;
+}
+
+.accept-something-boxes {
+    gap: 15px;
+}
+
+.accept-something-boxes > div {
+    gap: 20px;
+    color: #232323;
+}
+
 
 .article__button {
     padding: 14px 74px;

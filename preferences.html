@@ -61,8 +61,8 @@
                         <a href="preferences.html" class="article__a article__clicked-a">Preferences</a>
                         <a href="security.html" class="article__a">Security</a>
                     </div>
-                    <div>
-                        <div>
+                    <div class="flex-column article__form-container">
+                        <div class="flex-column">
                             <form class="flex-row">
                                 <div class="flex-column article__form-boxes">
                                   <label>Currency</label>
@@ -73,7 +73,23 @@
                                     <input type="text" value="(GMT-12:00) International Date Line West" />
                                 </div>
                             </form>
-                            <div></div>
+                            <div class="flex-column accept-something-container">
+                                <h3>Notification</h3>
+                                <div class="flex-column accept-something-boxes">
+                                    <div class="flex-row">
+                                        <img src="bankdash-image/yes-icon.svg" alt="yes icon" />
+                                        <p>I send or receive digita currency</p>
+                                    </div>
+                                    <div class="flex-row">
+                                        <img src="bankdash-image/no-icon.svg" alt="no icon" />
+                                        <p>I receive merchant order</p>
+                                    </div>
+                                    <div class="flex-row">
+                                        <img src="bankdash-image/yes-icon.svg" alt="yes icon" />
+                                        <p>There are recommendation for my account</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <button class="article__button">Save</button>
                     </div>
