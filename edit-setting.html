@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bankdash-image/bankdash-icon.svg" />
+    <link rel="stylesheet" href="edit-setting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Settings</title>
+</head>
+<body>
+    <div class="flex-column main-container">
+        <header class="box-width">
+            <div class="flex-row justify-center">
+                <div class="box-width flex-row header__container">
+                    <img src="bankdash-image/bankdash-logo.svg" alt="bankdash logo" class="header__logo"/>
+                    <div class="flex-row header__box">
+                        <h1>Setting</h1>
+                        <div class="flex-row header__buttons">
+                            <div class="flex-row header__search">
+                                <img src="bankdash-image/search-icon.svg" alt="search icon" />
+                                <input type="text" placeholder="Search for something" />
+                            </div>
+                            <button class="flex-row header__grey-button">
+                                <img src="bankdash-image/settings-icon.svg" alt="settings icon" />
+                            </button>
+                            <button class="flex-row header__grey-button">
+                                <img src="bankdash-image/notification-icon.svg" alt="notification icon" />
+                            </button>
+                            <button>
+                                <img src="bankdash-image/costumer-image.svg" alt="costumer image" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-row main">
+            <aside>
+                <div class="flex-column aside__container">
+                    <a href="main-bankdash.html"><img src="bankdash-image/gray-home-icon.svg" alt="home icon" />Dashboard</a>
+                    <a href="transaction.html"><img src="bankdash-image/transaction-icon.svg" alt="transaction icon"/>Transactions</a>
+                    <a href="account.html"><img src="bankdash-image/account-icon.svg" alt="account icon" />Accounts</a>
+                    <a href="investments.html"><img src="bankdash-image/investment-icon.svg" alt="investment icon" />Investments</a>
+                    <a href="credit-card.html"><img src="bankdash-image/credit-card-icon.svg" alt="credit card icon" />Credit Cards</a>
+                    <a href="loans.html"><img src="bankdash-image/loan-icon.svg" alt="loan icon" />Loans</a>
+                    <a href="services.html"><img src="bankdash-image/services-icon.svg" alt="services icon" />Services</a>
+                    <a href="#"><img src="bankdash-image/privilegues-icon.svg" alt="privilegues-icon" />My Privileges</a>
+                    <a href="edit-setting.html" class="aside__main-link"><img src="bankdash-image/blue-settings-icon.svg" alt="settings icon" />Setting</a><a href=""></a>
+                </div>
+                <img src="bankdash-image/burger-menu.svg" alt="burger-menu" class="aside__burger-manu" />
+            </aside>
+
+            <article class="flex-column">
+                <div class="flex-column article__main-container">
+                    <div class="flex-row article__a-box">
+                        <a href="edit-setting.html" class="article__a article__clicked-a">Edit Profile</a>
+                        <a href="preferences.html" class="article__a">Preferences</a>
+                        <a href="security.html" class="article__a">Security</a>
+                    </div>
+                    <div class="flex-row article__form-container">
+                        <img src="bankdash-image/user-big-img.svg" alt="big user img" />
+                        <form class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-column article__form-boxes">
+                                    <div class="flex-column">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" value="Charlene Reed" id="name" />
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Email</label>
+                                        <input type="email" value="charlenereed@gmail.com" required/>
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Date of Birth</label>
+                                        <input type="text" value="25 January 1990"/>
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Permanent Address</label>
+                                        <input type="text" value="San Jose, California, USA" />
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Postal Code</label>
+                                        <input type="number" value="45962" />
+                                    </div>
+                                </div>
+                                <div class="flex-column article__form-boxes">
+                                    <div class="flex-column">
+                                        <label for="name">User Name</label>
+                                        <input type="text" value="Charlene Reed" id="name" />
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Password</label>
+                                        <input type="password" value="**********" required/>
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Present Address</label>
+                                        <input type="text" value="San Jose, California, USA"/>
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>City</label>
+                                        <input type="text" value="San Jose" />
+                                    </div>
+                                    <div class="flex-column">
+                                        <label>Country</label>
+                                        <input type="text" value="USA" />
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" value="Save" class="article__button" />
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
