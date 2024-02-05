@@ -198,6 +198,32 @@ article {
 }
 
 
+form {
+    gap: 28px;
+}
+
+
+.article__form-boxes {
+    gap: 12px;
+}
+
+.article__form-boxes > label {
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.article__form-boxes > input {
+    padding: 16px 20px;
+    width: 510px;
+    border-radius: 15px;
+    border: 1px solid #DFEAF2;
+    background: #FFF;
+    color: #718EBF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 
 
 .article__button {

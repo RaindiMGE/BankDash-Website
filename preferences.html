@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="bankdash-image/bankdash-icon.svg" />
-    <link rel="stylesheet" href="edit-setting.css" />
+    <link rel="stylesheet" href="preferences.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -62,7 +62,19 @@
                         <a href="security.html" class="article__a">Security</a>
                     </div>
                     <div>
-                        <div></div>
+                        <div>
+                            <form class="flex-row">
+                                <div class="flex-column article__form-boxes">
+                                  <label>Currency</label>
+                                  <input type="text" value="USD" />
+                                </div>
+                                <div class="flex-column article__form-boxes">
+                                    <label>Time Zone</label>
+                                    <input type="text" value="(GMT-12:00) International Date Line West" />
+                                </div>
+                            </form>
+                            <div></div>
+                        </div>
                         <button class="article__button">Save</button>
                     </div>
                 </div>
